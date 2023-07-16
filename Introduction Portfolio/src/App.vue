@@ -3,7 +3,8 @@
 </script>
 
 <template>
-    
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
     <div class="alert alert-primary rounded float-start" role="alert">
     A simple primary alert—check it out!
     </div>
@@ -31,6 +32,13 @@
 
     <h1>sdadasd</h1>
     <h1 lang="la">ແຊບຫຼາຍ</h1>
+    
+    <span class="material-symbols-outlined">
+        menu
+    </span>
+    <span class="material-symbols-outlined" style="color: hsl(176, 100%, 50%)">
+        search
+    </span>
 </template>
 
 <style scoped>
