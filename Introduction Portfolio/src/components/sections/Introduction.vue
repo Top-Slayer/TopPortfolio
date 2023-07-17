@@ -1,5 +1,5 @@
 <template>
-    <div class="row align-items-center">
+  <!-- <div class="row align-items-center">
         <div class="col-6">
             <img src="/images/Prop image.svg" width="200">
         </div>
@@ -11,5 +11,16 @@
                 <h1>asdadasdsdsdsasd</h1>
             </div>
         </div>
+    </div> -->
+    <div class="grid text-center" style="--bs-columns:3;">
+
     </div>
+  <div>
+    Second auto-column
+    <div class="grid" style="--bs-columns: 12">
+      <div class="g-col-6">6 of 12</div>
+      <div class="g-col-4">4 of 12</div>
+      <div class="g-col-2">2 of 12</div>
+    </div>
+  </div>
 </template>

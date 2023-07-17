@@ -6,7 +6,7 @@
     
     <PortfolioContainer />
 
-    <h1>sdadasd</h1>
+    <!-- <h1>sdadasd</h1>
     <h1 lang="la">ແຊບຫຼາຍ</h1>
     
     <button>
@@ -17,7 +17,7 @@
 
     <span class="material-symbols-outlined" style="color: hsl(208, 94%, 52%);">
         search
-    </span>
+    </span> -->
 </template>
 
 <style scoped>

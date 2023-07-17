@@ -1,9 +1,10 @@
 <script setup>
-    import Introduction from './sections/Introduction.vue';
+import Introduction from "./sections/Introduction.vue";
+import Menubar from "./sections/Menubar.vue";
 </script>
 
 <template>
-    <div class="container fluid py-4">
-        <Introduction />
-    </div>
+  <div class="col-1">
+      <Menubar />
+  </div>
 </template>
