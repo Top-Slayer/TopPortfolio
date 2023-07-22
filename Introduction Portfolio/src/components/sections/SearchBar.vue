@@ -25,7 +25,7 @@
   left: 10%;
 }
 input[type="search"] {
-    width: 500px;
+    width: 700px;
     padding: 10px;
     border: 1px #ccc;
     background-color: #5B6B75

@@ -20,6 +20,9 @@
 
 body {
   font-family: 'Tektur', sans-serif;
+
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 /* vue default css */

@@ -1,14 +1,17 @@
 <template>
   <div
-    class="text-center container"
+    class="text-center position-absolute"
     style="
+      padding-top: 110px;
+      width: 60px;
+      height: 100%;
       background: #24292c;
       box-shadow: 10px 0px 50px 10px rgba(0, 0, 0, 0.5);
     "
   >
-    <div style="padding-block: 237%">
+    <div>
       <!-- home button icon -->
-      <div class="py-3">
+      <div class="py-4">
         <span class="material-symbols-outlined"
           ><a
             id="transition"
@@ -21,7 +24,7 @@
       </div>
 
       <!-- widgets button icon -->
-      <div class="py-3">
+      <div class="py-4">
         <span class="material-symbols-outlined"
           ><a
             id="transition"
@@ -34,7 +37,7 @@
       </div>
 
       <!-- game button icon -->
-      <div class="py-3">
+      <div class="py-4">
         <span class="material-symbols-outlined"
           ><a
             id="transition"
