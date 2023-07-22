@@ -1,25 +1,18 @@
 <script setup>
-    import PortfolioContainer from './components/PortfolioContainer.vue';
+    import PortfolioContainer from "./components/PortfolioContainer.vue";
+    import PortfolioContainerTutorial from "./components/PortfolioContainerTutorial.vue";
 </script>
 
 <template>
-    
-    <PortfolioContainer />
+  <PortfolioContainer />
 
-    <!-- <h1>sdadasd</h1>
-    <h1 lang="la">ແຊບຫຼາຍ</h1>
-    
-    <button>
-        <span class="material-symbols-outlined">
-            menu
-        </span>
-    </button>
+  <!-- Tutorial website -->
+  <!-- -------------------------------- -->
+    <!-- <div class="p-5">
+        <PortfolioContainerTutorial />
+    </div> -->
+  <!-- -------------------------------- -->
 
-    <span class="material-symbols-outlined" style="color: hsl(208, 94%, 52%);">
-        search
-    </span> -->
 </template>
 
-<style scoped>
-  
-</style>
+<style scoped></style>
