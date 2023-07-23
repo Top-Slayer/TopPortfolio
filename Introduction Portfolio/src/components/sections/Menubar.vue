@@ -1,10 +1,10 @@
 <template>
   <div
-    class="text-center position-absolute"
+    class="text-center position-fixed"
     style="
       padding-top: 110px;
       width: 60px;
-      height: 100%;
+      height: 1000%;
       background: #24292c;
       box-shadow: 10px 0px 50px 10px rgba(0, 0, 0, 0.5);
     "

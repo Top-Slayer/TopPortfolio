@@ -1,37 +1,39 @@
 <template>
-  <div class="row p-5">
-    <div class="col-6 mt-4">
-      <img
-        src="/images/Prop image.svg"
-        width="310"
-        class="img-fluid mx-auto d-block"
-      />
-    </div>
-
-    <div class="col-6 text-center mt-3">
-      <div class="row">
-        <div class="col-6 m-3 background">
-          <img src="/images/Unity.png" width="120px" class="mx-auto d-block p-3" />
-          <div class="title_below_icon">
-            UNITY Engine
+  <div>
+    <div class="row px-5 pt-5 ms-4 ms-md-0">
+      <div class="col-12 col-md-6 mt-4 pt-5 pt-md-0">
+        <img
+          src="/images/Prop image.svg"
+          width="305px"
+          class="img-fluid mx-auto d-block"
+        />
+      </div>
+  
+      <div class="col-12 col-md-6 text-center mt-2 mt-md-4">
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-md-6 background m-1">
+            <img src="/images/Unity.png" width="100px" class="mx-auto d-block p-3" />
+            <div class="title_below_icon">
+              UNITY Engine
+            </div>
+          </div>
+  
+          <div class="col-12 col-md-6 background m-1">
+            <img src="/images/Visual_studio.png" width="100px" class="mx-auto d-block p-3" />
+              <div class="title_below_icon">VISUAL STUDIO</div>
           </div>
         </div>
-
-        <div class="col-6 m-3 background">
-          <img src="/images/Visual_studio.png" width="120px" class="mx-auto d-block p-3" />
-            <div class="title_below_icon">VISUAL STUDIO</div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-6 m-3 background">
-          <img src="/images/C_sharp.png" width="120px" class="mx-auto d-block p-3" />
-            <div class="title_below_icon">C# LANGUAGE</div>
-        </div>
-
-        <div class="col-6 m-3 background">
-          <img src="/images/Game.png" width="120px" class="mx-auto d-block p-3" />
-            <div class="title_below_icon">GAME DESIGN</div>
+  
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-md-6 background m-1">
+            <img src="/images/C_sharp.png" width="100px" class="mx-auto d-block p-3" />
+              <div class="title_below_icon">C# LANGUAGE</div>
+          </div>
+  
+          <div class="col-12 col-md-6 background m-1">
+            <img src="/images/Game.png" width="100px" class="mx-auto d-block p-3" />
+              <div class="title_below_icon">GAME DESIGN</div>
+          </div>
         </div>
       </div>
     </div>
@@ -40,8 +42,8 @@
 
 <style scoped>
 .background {
-  width: 150px;
-  height: 160px;
+  width: 130px;
+  height: 140px;
   left: 0px;
   top: 0px;
   border-radius: 41px;
@@ -49,7 +51,7 @@
 }
 .title_below_icon{
     color: white;
-    font-size: 15px;
+    font-size: 12px;
     font-family: Reospec;
 }
 .light {
