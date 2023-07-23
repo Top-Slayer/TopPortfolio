@@ -3,7 +3,7 @@
     <div class="row px-5 pt-5 ms-4 ms-md-0">
       <div class="col-12 col-md-6 mt-4 pt-5 pt-md-0">
         <img
-          src="/images/Prop image.svg"
+          src="/images/Prop_image.svg"
           width="305px"
           class="img-fluid mx-auto d-block"
         />
